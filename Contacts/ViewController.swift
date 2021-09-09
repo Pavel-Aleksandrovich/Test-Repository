@@ -53,6 +53,7 @@ class ViewController: UIViewController {
         self.contacts.append(contact)
           self.tableView.reloadData()
           }
+        let second = "commit"
           // кнопка отмены
           let cancelButton = UIAlertAction(title: "Отменить", style: .cancel, handler: nil)
           // добавляем кнопки в Alert Controller
